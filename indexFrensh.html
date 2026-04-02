@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aman Ta'lim — Protégez vos formations contre le piratage</title>
+  <meta name="description"
+    content="Plateforme pour les établissements : vidéo et direct sécurisés, accès authentifié, environnements isolés. Mettez fin aux fuites de liens." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Manrope', 'system-ui', 'sans-serif'],
+            display: ['Sora', 'Manrope', 'sans-serif'],
+          },
+          colors: {
+            ink: '#0f172a',
+            mist: '#64748b',
+            brand: '#1e40af',
+            brand2: '#3730a3',
+            navy: '#0c1929',
+            gold: '#c5a35a',
+          },
+          boxShadow: {
+            soft: '0 4px 24px -4px rgba(15, 23, 42, 0.08), 0 12px 48px -8px rgba(30, 64, 175, 0.12)',
+            card: '0 1px 0 0 rgba(15, 23, 42, 0.06), 0 8px 32px -8px rgba(15, 23, 42, 0.1)',
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="font-sans text-slate-800 antialiased bg-[#f8fafc] selection:bg-indigo-100 selection:text-indigo-900">
+  <header class="sticky top-0 z-50 border-b border-slate-200/90 bg-white/95 shadow-sm backdrop-blur-md">
+    <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6">
+      <a href="#" class="font-display flex items-center gap-2.5 text-lg font-bold tracking-tight text-navy">
+        <span
+          class="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-brand via-indigo-700 to-brand2 text-base font-black text-white shadow-md shadow-indigo-500/25">A</span>
+        <span>Aman Ta'lim</span>
+      </a>
+      <nav class="hidden items-center gap-5 text-sm font-semibold text-slate-600 md:flex lg:gap-7">
+        <a href="#pourquoi" class="transition hover:text-brand">Pourquoi</a>
+        <a href="#fonctionnalites" class="transition hover:text-brand">Fonctionnalités</a>
+        <a href="#admin" class="transition hover:text-brand">Espace admin</a>
+        <a href="#tech" class="transition hover:text-brand">Technologies</a>
+        <a href="#tableaux" class="transition hover:text-brand">Interfaces</a>
+        <a href="#galerie" class="transition hover:text-brand">Galerie</a>
+        <a href="#fournisseur" class="transition hover:text-brand">Fournisseur</a>
+        <a href="#avis" class="transition hover:text-brand">Avis &amp; tarif</a>
+        <a href="#contact" class="transition hover:text-brand">Contact</a>
+      </nav>
+      <div class="flex items-center gap-2 sm:gap-3">
+        <a href="index.html"
+          class="shrink-0 rounded-lg border border-indigo-200 bg-indigo-50/80 px-3 py-2 text-xs font-bold text-indigo-900 transition hover:border-indigo-300 hover:bg-indigo-100"
+          lang="ar" dir="rtl" title="النسخة العربية">العربية · AR</a>
+        <a href="#contact"
+          class="rounded-full bg-navy px-4 py-2.5 text-sm font-bold text-white shadow-soft transition hover:bg-slate-900 sm:px-5">Demander
+          une démo</a>
+      </div>
+    </div>
+  </header>
+
+  <section
+    class="relative overflow-hidden border-b border-indigo-100/60 bg-gradient-to-br from-slate-50 via-indigo-50/70 to-violet-100/50">
+    <div
+      class="pointer-events-none absolute inset-0 bg-[linear-gradient(125deg,rgba(79,70,229,0.14)_0%,rgba(255,255,255,0)_42%,rgba(124,58,237,0.1)_85%)]">
+    </div>
+    <div
+      class="pointer-events-none absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.92),rgba(248,250,252,0.35))]">
+    </div>
+    <div class="pointer-events-none absolute -left-24 -top-24 h-72 w-72 rounded-full bg-indigo-400/20 blur-3xl"></div>
+    <div class="pointer-events-none absolute -bottom-16 -right-16 h-64 w-64 rounded-full bg-violet-400/15 blur-3xl">
+    </div>
+    <div class="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:py-28">
+      <p
+        class="mb-4 inline-flex rounded-full border border-indigo-200/90 bg-white/75 px-4 py-1.5 text-xs font-bold text-indigo-900 shadow-sm backdrop-blur-sm">
+        Pourquoi cette plateforme existe</p>
+      <h1 class="font-display max-w-4xl text-3xl font-extrabold leading-[1.35] text-ink sm:text-4xl lg:text-[2.65rem]">
+        Vos formations sont piratées<br class="hidden sm:block" />
+        <span class="text-red-600">en ce moment même.</span><br />
+        <span class="bg-gradient-to-r from-indigo-600 via-violet-600 to-indigo-800 bg-clip-text text-transparent">Nous y
+          mettons fin.</span>
+      </h1>
+      <p class="mt-6 max-w-3xl text-lg leading-relaxed text-slate-700">
+        Chaque lien de fuite, chaque session live partagée, c’est du <strong>revenu perdu</strong> pour votre
+        établissement. <strong>Aman Ta'lim</strong> verrouille votre contenu avec des contrôles d’accès stricts — seuls
+        vos apprenants payants entrent.
+      </p>
+      <div class="mt-10 flex flex-wrap gap-4">
+        <a href="#contact"
+          class="inline-flex items-center justify-center rounded-full bg-gradient-to-r from-indigo-700 to-violet-700 px-7 py-3.5 text-base font-bold text-white shadow-lg shadow-indigo-600/30 transition hover:from-indigo-800 hover:to-violet-800">Sécuriser
+          mon établissement</a>
+        <a href="#admin"
+          class="inline-flex items-center justify-center rounded-full border-2 border-white/80 bg-white/80 px-7 py-3.5 text-base font-bold text-slate-800 shadow-md backdrop-blur-sm transition hover:bg-white">Pilotage
+          école</a>
+        <a href="#tableaux"
+          class="inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3.5 text-base font-bold text-indigo-800 underline-offset-4 transition hover:underline">Voir
+          les interfaces</a>
+      </div>
+
+      <div class="mt-14 grid gap-6 sm:grid-cols-3">
+        <div class="rounded-2xl border border-white/60 bg-white/70 p-6 text-center shadow-card backdrop-blur-md">
+          <div
+            class="font-display bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-3xl font-black text-transparent">
+            10K+</div>
+          <div class="mt-1 text-sm font-semibold text-slate-700">Établissements protégés</div>
+        </div>
+        <div class="rounded-2xl border border-white/60 bg-white/70 p-6 text-center shadow-card backdrop-blur-md">
+          <div
+            class="font-display bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-3xl font-black text-transparent">
+            500K+</div>
+          <div class="mt-1 text-sm font-semibold text-slate-700">Connexions sécurisées</div>
+        </div>
+        <div class="rounded-2xl border border-white/60 bg-white/70 p-6 text-center shadow-card backdrop-blur-md">
+          <div
+            class="font-display bg-gradient-to-r from-indigo-600 to-violet-600 bg-clip-text text-3xl font-black text-transparent">
+            99.9%</div>
+          <div class="mt-1 text-sm font-semibold text-slate-700">Objectif zéro fuite</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pourquoi" class="border-b border-slate-200 bg-slate-50 py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <h2 class="font-display text-center text-2xl font-extrabold text-ink sm:text-3xl">Conçu pour les directeurs qui en
+        ont assez du vol de contenu</h2>
+      <p class="mx-auto mt-6 max-w-3xl text-center text-base leading-relaxed text-slate-600">
+        Vous passez des semaines à filmer, monter et publier — puis quelqu’un partage le lien sur WhatsApp. En quelques
+        minutes, des centaines d’inconnus regardent gratuitement pendant que vos revenus fondent. <strong>Aman
+          Ta'lim</strong> a été pensé pour stopper ça : jetons d’accès temporaires, sessions live réservées aux comptes
+        vérifiés, liens de formation qui expirent au bon moment.
+      </p>
+      <p class="mx-auto mt-4 max-w-2xl text-center text-lg font-semibold text-indigo-900">
+        Vous vous concentrez sur l’enseignement. Nous gérons les verrous, la surveillance et les accès — votre savoir
+        reste le vôtre.
+      </p>
+
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 text-left shadow-sm">
+          <div class="text-2xl">🎬</div>
+          <h3 class="mt-3 font-bold text-ink">Streaming vidéo protégé, liens à durée limitée</h3>
+          <p class="mt-2 text-sm leading-relaxed text-mist">Partager le lien ne suffit plus.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 text-left shadow-sm">
+          <div class="text-2xl">🎥</div>
+          <h3 class="mt-3 font-bold text-ink">Direct réservé aux inscrits</h3>
+          <p class="mt-2 text-sm leading-relaxed text-mist">Pas d’accès anonyme, pas de diffusion publique ouverte.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 text-left shadow-sm">
+          <div class="text-2xl">📊</div>
+          <h3 class="mt-3 font-bold text-ink">Suivi d’accès en temps réel</h3>
+          <p class="mt-2 text-sm leading-relaxed text-mist">Sachez qui regarde quoi.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 text-left shadow-sm">
+          <div class="text-2xl">🏫</div>
+          <h3 class="mt-3 font-bold text-ink">Multi-établissements, environnements isolés</h3>
+          <p class="mt-2 text-sm leading-relaxed text-mist">
+            Chaque établissement obtient un sous-domaine (ou domaine) dédié et une page d’atterrissage spéciale pour
+            afficher les cours
+            et permettre l’inscription des étudiants — le tout dans un environnement isolé.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="fonctionnalites" class="border-b border-slate-200 bg-white py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <h2 class="font-display text-2xl font-extrabold text-ink sm:text-3xl">Tout pour enseigner sans crainte</h2>
+      <p class="mt-3 max-w-2xl text-slate-600">Des outils qui protègent votre contenu, sécurisent vos lives et
+        renforcent votre crédibilité.</p>
+
+      <ul class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <li class="flex gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-left">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-100 text-lg">📡</span>
+          <div>
+            <h3 class="font-bold text-ink">Streaming HD sécurisé</h3>
+            <p class="mt-1 text-sm text-mist">Jetons chiffrés à durée de vie courte — pas d’URL figée pour tout le
+              monde.</p>
+          </div>
+        </li>
+        <li class="flex gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-left">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-100 text-lg">🔐</span>
+          <div>
+            <h3 class="font-bold text-ink">Évaluations verrouillées</h3>
+            <p class="mt-1 text-sm text-mist">Réservées aux inscrits payants — les liens anonymes ne mènent nulle part.
+            </p>
+          </div>
+        </li>
+        <li class="flex gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-left">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-fuchsia-100 text-lg">🧠</span>
+          <div>
+            <h3 class="font-bold text-ink">Intelligence d’accès</h3>
+            <p class="mt-1 text-sm text-mist">Identifiez qui regarde et qui tente de partager.</p>
+          </div>
+        </li>
+        <li class="flex gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-left">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-emerald-100 text-lg">✓</span>
+          <div>
+            <h3 class="font-bold text-ink">Apprenants authentifiés</h3>
+            <p class="mt-1 text-sm text-mist">Entrée conditionnée à l’inscription et au paiement.</p>
+          </div>
+        </li>
+        <li
+          class="flex gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-left sm:col-span-2 lg:col-span-1">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-lg">📚</span>
+          <div>
+            <h3 class="font-bold text-ink">Parcours de formation structurés</h3>
+            <p class="mt-1 text-sm text-mist">Playlists verrouillées — progression claire sans contournement.</p>
+          </div>
+        </li>
+        <li
+          class="flex gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-left sm:col-span-2 lg:col-span-1">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-sky-100 text-lg">👤</span>
+          <div>
+            <h3 class="font-bold text-ink">Gestion des apprenants</h3>
+            <p class="mt-1 text-sm text-mist">Validez, suspendez, suivez les connexions — immédiatement.</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="mt-12 rounded-2xl border border-indigo-100 bg-indigo-50/50 p-8 text-left">
+        <h3 class="text-xl font-bold text-ink">La sécurité à chaque couche</h3>
+        <p class="mt-3 text-slate-600">De la livraison vidéo chiffrée à la vérification des sessions — chaque brique
+          vise à bloquer le piratage et les accès non autorisés.</p>
+      </div>
+
+      <div class="mt-10 rounded-2xl border border-emerald-200 bg-emerald-50/80 p-6 text-left">
+        <h3 class="text-lg font-bold text-emerald-900">Transparence tarifaire</h3>
+        <p class="mt-2 text-emerald-900/90">Chaque offre inclut une protection complète du contenu. Plus vous
+          grandissez, plus la sécurité se renforce. <strong>Essai gratuit 14 jours</strong>.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="admin" class="relative border-b border-slate-200 bg-gradient-to-b from-slate-50 to-white py-16 sm:py-20">
+    <div
+      class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-indigo-200 to-transparent">
+    </div>
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="text-left">
+        <p class="text-sm font-bold text-brand">Tableau de bord — direction d’établissement</p>
+        <h2 class="font-display mt-2 text-2xl font-extrabold text-navy sm:text-3xl">Un pilotage opérationnel de ce qui
+          se passe dans votre école</h2>
+        <p class="mt-4 max-w-3xl text-base leading-relaxed text-slate-600">
+          Au-delà d’un simple compte administrateur : suivez l’activité des formateurs, gérez les évaluations et les
+          inscriptions depuis un seul espace — pensé pour décider vite et respecter votre politique interne.
+        </p>
+      </div>
+      <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <article
+          class="group rounded-2xl border border-slate-200/90 bg-white p-7 text-left shadow-card transition hover:border-indigo-200 hover:shadow-soft">
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-600 to-indigo-800 text-lg text-white shadow-md">
+            ▶</div>
+          <h3 class="font-display mt-5 text-lg font-bold text-navy">Suivi des sessions live des enseignants</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            Voyez qui a lancé un direct, quand, et reliez l’activité à vos parcours — sans perdre la visibilité sur vos
+            classes virtuelles.
+          </p>
+        </article>
+        <article
+          class="group rounded-2xl border border-slate-200/90 bg-white p-7 text-left shadow-card transition hover:border-indigo-200 hover:shadow-soft">
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-violet-600 to-purple-800 text-lg text-white shadow-md">
+            ✎</div>
+          <h3 class="font-display mt-5 text-lg font-bold text-navy">Gestion des quiz en ligne</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            Créez, modifiez, suivez les tentatives et <strong>validez la correction manuelle</strong> si besoin — le
+            tout relié à vos programmes et catégories.
+          </p>
+        </article>
+        <article
+          class="group rounded-2xl border border-slate-200/90 bg-white p-7 text-left shadow-card transition hover:border-indigo-200 hover:shadow-soft md:col-span-2 lg:col-span-1">
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-600 to-teal-800 text-lg text-white shadow-md">
+            👥</div>
+          <h3 class="font-display mt-5 text-lg font-bold text-navy">Gestion des inscriptions</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            <strong>Accepter, refuser, renouveler</strong> : seuls les apprenants payés et validés accèdent au parcours
+            — aligné sur votre modèle économique.
+          </p>
+        </article>
+      </div>
+      <p
+        class="mt-10 rounded-2xl border border-amber-200/60 bg-amber-50/50 px-6 py-4 text-left text-sm text-amber-950/90">
+        <span class="font-bold text-amber-900">Note :</span> ces fonctions sont disponibles dans l’espace « tenant »
+        (direction) et s’articulent avec les rôles formateur et apprenant pour séparer clairement pédagogie et
+        administration.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Galerie -->
+  <section id="galerie" class="border-b border-slate-200 bg-slate-900 py-16 text-slate-100 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="text-center">
+        <h2 class="font-display text-2xl font-extrabold  sm:text-3xl">Galerie de photos</h2>
+        <p class="mt-3 text-slate-600">Un aperçu détaillé de l'application</p>
+      </div>
+
+      <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <a href="landingpage.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="landingpage.png" alt="Page d'accueil" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Page d'accueil</p>
+          </div>
+        </a>
+        <a href="student_dashboard.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="student_dashboard.png" alt="Espace apprenant 1" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace apprenant - Tableau de bord</p>
+          </div>
+        </a>
+        <a href="student_dashboard2.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="student_dashboard2.png" alt="Espace apprenant 2" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace apprenant - Leçon</p>
+          </div>
+        </a>
+        <a href="teacher1.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="teacher1.png" alt="Espace formateur 1" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace formateur - Statistiques</p>
+          </div>
+        </a>
+        <a href="teacher2.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="teacher2.png" alt="Espace formateur 2" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace formateur - Gestion des cours</p>
+          </div>
+        </a>
+        <a href="dashboard_3.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="dashboard_3.png" alt="Aperçu espace formateur" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Aperçu Espace formateur</p>
+          </div>
+        </a>
+        <a href="daashboard_1.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="daashboard_1.png" alt="Espace direction" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace direction (Tenant)</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="fournisseur"
+    class="border-b border-slate-800 bg-gradient-to-b from-navy via-[#0f1d32] to-navy py-16 text-white sm:py-20">
+    <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
+      <p class="text-xs font-bold uppercase tracking-[0.2em] text-gold/90">Fournisseur</p>
+      <h2 class="font-display mt-3 text-2xl font-extrabold leading-snug text-white sm:text-3xl">Une réalisation
+        technique professionnelle</h2>
+      <p class="mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-slate-400 sm:text-base">
+        Conception, sécurité et expérience utilisateur suivent les standards des plateformes éducatives modernes. Pour
+        le parcours et l’expérience du fournisseur, consultez le profil <span class="text-slate-200">LinkedIn</span>.
+      </p>
+      <a href="https://www.linkedin.com/in/mohammed-cherif-mohamed-361342290/" target="_blank" rel="noopener noreferrer"
+        class="font-display mt-8 inline-flex items-center gap-3 rounded-full bg-[#0A66C2] px-8 py-3.5 text-base font-bold text-white shadow-lg shadow-blue-900/40 transition hover:bg-[#004182] hover:shadow-xl">
+        <svg class="h-6 w-6 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+        </svg>
+        Qui fournit la solution ? — Profil LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <section id="avis" class="border-b border-slate-200 bg-gradient-to-b from-indigo-50 to-white py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <h2 class="font-display text-center text-2xl font-extrabold text-ink sm:text-3xl">Votre avis — et votre budget
+        mensuel</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-center text-slate-600">
+        Aidez-nous à fixer un prix juste : notez le concept et indiquez le <strong>montant mensuel</strong> qui vous
+        semble adapté pour protéger contenu, sessions et apprenants comme décrit.
+      </p>
+      <div class="mt-10 grid gap-8 lg:grid-cols-2">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 text-left shadow-sm">
+          <h3 class="font-bold text-ink">Pourquoi demander un budget mensuel ?</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            Une tarification pertinente repose sur la valeur réelle pour vous. Votre retour oriente nos offres : petite
+            structure ou pack institutionnel avec accompagnement renforcé ?
+          </p>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li>• Choisissez une fourchette indicative — vous pourrez l’ajuster.</li>
+            <li>• Précisez devise et pays dans le message si besoin.</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-indigo-200 bg-white p-6 text-left shadow-sm">
+          <h3 class="font-bold text-indigo-900">Avant d’envoyer</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            Mensuel ou annuel ? Virement ou carte ? Nombre d’apprenants visé ? Décrivez-le dans le formulaire — nous
+            répondrons avec des options de paiement adaptées à votre marché.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="grid gap-12 lg:grid-cols-2">
+        <div class="text-left">
+          <h2 class="font-display text-2xl font-extrabold text-ink sm:text-3xl">Contact — avis &amp; budget</h2>
+          <p class="mt-4 leading-relaxed text-slate-600">
+            Configurez <strong>FORM_ENDPOINT</strong> ci-dessous (Formspree, Getform ou votre API). Le formulaire inclut
+            une note rapide et une fourchette de budget mensuel.
+          </p>
+          <div class="mt-6 rounded-2xl border border-emerald-200/80 bg-emerald-50/90 p-5 text-left shadow-sm">
+            <p class="text-sm font-bold text-emerald-900">Essai gratuit 14 jours</p>
+            <p class="mt-2 text-sm leading-relaxed text-emerald-900/90">
+              Les personnes qui remplissent ce formulaire avec des coordonnées valides manifestent leur intérêt ; après
+              examen de votre demande, nous vous recontactons pour activer un <strong>essai gratuit de 14
+                jours</strong>, sous réserve de disponibilité et d’éligibilité.
+            </p>
+          </div>
+        </div>
+        <form action="https://formspree.io/f/mzdkajpk" method="POST" id="contact-form"
+          class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm" dir="ltr" novalidate>
+          <input type="hidden" name="_subject" value="Aman Ta'lim — avis, budget + essai 14 jours" />
+          <p
+            class="mb-5 rounded-xl border border-emerald-100 bg-emerald-50/70 px-4 py-3 text-left text-sm text-emerald-950">
+            <span class="font-bold">Offre d’essai :</span> l’envoi de ce formulaire exprime votre intérêt ; nous vous
+            contactons pour organiser <strong>14 jours gratuits</strong> après vérification de la demande.
+          </p>
+          <div class="grid gap-4">
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">Nom complet</span>
+              <input name="name" type="text" required
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-left text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+                placeholder="Nom" />
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">E-mail professionnel</span>
+              <input name="email" type="email" required
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-left text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+                placeholder="vous@ecole.com" />
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">Établissement</span>
+              <input name="company" type="text"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-left text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand" />
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">Votre avis sur le concept (1 à 5)</span>
+              <select name="rating"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-left text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand">
+                <option value="">Choisir</option>
+                <option value="5">5 — Excellent, j’en ai besoin</option>
+                <option value="4">4 — Très bon</option>
+                <option value="3">3 — Moyen</option>
+                <option value="2">2 — Faible</option>
+                <option value="1">1 — Ne me convient pas</option>
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">Budget mensuel envisagé (indicatif)</span>
+              <select name="monthly_budget"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-left text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand">
+                <option value="">Choisir la tranche</option>
+                <option value="under_50">Moins de 2000 DA</option>
+                <option value="50_100">2500 — 3000</option>
+                <option value="100_300">4000 — 5000</option>
+                <option value="above_1000">Plus de 6000</option>
+                <option value="custom">Je le préciserai dans le message</option>
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">Mode de paiement préféré</span>
+              <select name="payment_preference"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-left text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand">
+                <option value="">Choisir</option>
+                <option value="invoice">Virement / facture</option>
+                <option value="card">Carte (ex. Stripe)</option>
+                <option value="subscription">Abonnement mensuel</option>
+                <option value="other">Autre — détails dans le message</option>
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">Message — besoins, nombre d’apprenants, pays, devise</span>
+              <textarea name="message" rows="5" required
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-left text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+                placeholder="Décrivez vos attentes en matière de protection et le budget mensuel qui vous semble cohérent."></textarea>
+            </label>
+          </div>
+          <p id="form-status" class="mt-4 hidden text-sm"></p>
+          <button type="submit"
+            class="mt-4 w-full rounded-full bg-ink py-3 font-bold text-white hover:bg-slate-800">Envoyer</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-200 bg-slate-100 py-8 text-center text-sm text-slate-500">
+    <p>© <span id="y"></span> Aman Ta'lim — page d’atterrissage statique</p>
+  </footer>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    var FORM_ENDPOINT = 'https://formspree.io/f/mzdkajpk';
+
+    document.getElementById('contact-form').addEventListener('submit', async function (e) {
+      e.preventDefault();
+      var status = document.getElementById('form-status');
+      status.classList.remove('hidden', 'text-red-600', 'text-green-700', 'text-slate-600');
+      var fd = new FormData(e.target);
+
+      if (FORM_ENDPOINT === 'YOUR_FORM_ENDPOINT') {
+        status.textContent = 'Définissez FORM_ENDPOINT en bas de fichier (remplacez YOUR_FORM_ENDPOINT par l’URL Formspree ou votre API).';
+        status.classList.add('text-red-600');
+        return;
+      }
+
+      status.textContent = 'Envoi en cours…';
+      status.classList.add('text-slate-600');
+      try {
+        var res = await fetch(FORM_ENDPOINT, {
+          method: 'POST',
+          body: fd,
+          headers: { Accept: 'application/json' },
+        });
+        if (res.ok) {
+          status.textContent = 'Merci — nous vous recontacterons pour activer l’essai gratuit (14 jours) et les options de paiement.';
+          status.classList.remove('text-slate-600');
+          status.classList.add('text-green-700');
+          e.target.reset();
+        } else {
+          var err = await res.json().catch(function () { return {}; });
+          status.textContent = (err.error || 'Une erreur est survenue. Réessayez.') + '';
+          status.classList.add('text-red-600');
+        }
+      } catch (err) {
+        status.textContent = 'Échec d’envoi. Vérifiez l’URL ou le réseau.';
+        status.classList.add('text-red-600');
+      }
+    });
+  </script>
+</body>
+
+</html>

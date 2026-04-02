@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aman Ta'lim — حماية دوراتك من السرقة</title>
+  <meta name="description"
+    content="منصة لأصحاب المدارس: فيديو وبث مباشر محميان، وصول موثّق، وبيئات معزولة. أوقف تسريب روابط دوراتك." />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['IBM Plex Sans Arabic', 'Tahoma', 'system-ui', 'sans-serif'],
+            display: ['Alexandria', 'IBM Plex Sans Arabic', 'sans-serif'],
+          },
+          colors: {
+            ink: '#0f172a',
+            mist: '#64748b',
+            brand: '#1e40af',
+            brand2: '#3730a3',
+            navy: '#0c1929',
+            gold: '#c5a35a',
+          },
+          boxShadow: {
+            soft: '0 4px 24px -4px rgba(15, 23, 42, 0.08), 0 12px 48px -8px rgba(30, 64, 175, 0.12)',
+            card: '0 1px 0 0 rgba(15, 23, 42, 0.06), 0 8px 32px -8px rgba(15, 23, 42, 0.1)',
+          },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="font-sans text-slate-800 antialiased bg-[#f8fafc] selection:bg-indigo-100 selection:text-indigo-900">
+  <header class="sticky top-0 z-50 border-b border-slate-200/90 bg-white/95 shadow-sm backdrop-blur-md">
+    <div class="mx-auto flex max-w-6xl flex-row-reverse items-center justify-between px-4 py-3.5 sm:px-6">
+      <a href="#"
+        class="font-display flex flex-row-reverse items-center gap-2.5 text-lg font-bold tracking-tight text-navy">
+        <span
+          class="flex h-10 w-10 items-center justify-center rounded-2xl bg-gradient-to-br from-brand via-indigo-700 to-brand2 text-base font-black text-white shadow-md shadow-indigo-500/25">أ</span>
+        <span>Aman Ta'lim</span>
+      </a>
+      <nav class="hidden flex-row-reverse items-center gap-5 text-sm font-semibold text-slate-600 md:flex lg:gap-7">
+        <a href="#لماذا" class="transition hover:text-brand">لماذا بُنيت</a>
+        <a href="#مزايا" class="transition hover:text-brand">المزايا</a>
+        <a href="#لوحة-المدير" class="transition hover:text-brand">لوحة المدير</a>
+        <a href="#تقنيات" class="transition hover:text-brand">التقنيات</a>
+        <a href="#لوحات" class="transition hover:text-brand">اللوحات</a>
+        <a href="#معرض" class="transition hover:text-brand">معرض الصور</a>
+        <a href="#مزود" class="transition hover:text-brand">المزوّد</a>
+        <a href="#رأيك" class="transition hover:text-brand">رأيك والتسعير</a>
+        <a href="#تواصل" class="transition hover:text-brand">تواصل</a>
+      </nav>
+      <div class="flex flex-row-reverse items-center gap-2 sm:gap-3">
+        <a href="#تواصل"
+          class="rounded-full bg-navy px-4 py-2.5 text-sm font-bold text-white shadow-soft transition hover:bg-slate-900 sm:px-5">اطلب
+          عرضاً</a>
+        <a href="indexFrensh.html"
+          class="shrink-0 rounded-lg border border-indigo-200 bg-indigo-50/80 px-3 py-2 text-xs font-bold text-indigo-900 transition hover:border-indigo-300 hover:bg-indigo-100"
+          lang="fr" dir="ltr" title="Version française">FR · Français</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section
+    class="relative overflow-hidden border-b border-indigo-100/60 bg-gradient-to-br from-slate-50 via-indigo-50/70 to-violet-100/50">
+    <div
+      class="pointer-events-none absolute inset-0 bg-[linear-gradient(125deg,rgba(79,70,229,0.14)_0%,rgba(255,255,255,0)_42%,rgba(124,58,237,0.1)_85%)]">
+    </div>
+    <div
+      class="pointer-events-none absolute inset-0 bg-[linear-gradient(to_bottom,rgba(255,255,255,0.92),rgba(248,250,252,0.35))]">
+    </div>
+    <div class="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-indigo-400/20 blur-3xl"></div>
+    <div class="pointer-events-none absolute -bottom-16 -left-16 h-64 w-64 rounded-full bg-violet-400/15 blur-3xl">
+    </div>
+    <div class="relative mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-24 lg:py-28">
+      <p
+        class="mb-4 inline-flex rounded-full border border-indigo-200/90 bg-white/75 px-4 py-1.5 text-xs font-bold text-indigo-900 shadow-sm backdrop-blur-sm">
+        لماذا بُني هذا المنتج؟</p>
+      <h1 class="font-display max-w-4xl text-3xl font-extrabold leading-[1.35] text-ink sm:text-4xl lg:text-[2.65rem]">
+        دوراتك التعليمية تُسرق<br class="hidden sm:block" />
+        <span class="text-red-600">الآن بينما تقرأ هذا.</span><br />
+        <span class="bg-gradient-to-l from-indigo-600 via-violet-600 to-indigo-800 bg-clip-text text-transparent">نحن
+          نوقف ذلك.</span>
+      </h1>
+      <p class="mt-6 max-w-3xl text-lg leading-relaxed text-slate-700">
+        كل رابط فيديو مُسرَّب وكل جلسة مباشرة مشتركة = أموال مسروقة من مدرستك. <strong>Aman Ta'lim</strong> يغلق محتواك
+        بأقوى أنظمة التحكم في الوصول — فلا يدخل إلا طلابك المدفوعون.
+      </p>
+      <div class="mt-10 flex flex-wrap justify-end gap-4">
+        <a href="#تواصل"
+          class="inline-flex items-center justify-center rounded-full bg-gradient-to-l from-indigo-700 to-violet-700 px-7 py-3.5 text-base font-bold text-white shadow-lg shadow-indigo-600/30 transition hover:from-indigo-800 hover:to-violet-800">احمِ
+          مدرستي الآن</a>
+        <a href="#لوحة-المدير"
+          class="inline-flex items-center justify-center rounded-full border-2 border-white/80 bg-white/80 px-7 py-3.5 text-base font-bold text-slate-800 shadow-md backdrop-blur-sm transition hover:bg-white">إدارة
+          المدرسة</a>
+        <a href="#لوحات"
+          class="inline-flex items-center justify-center rounded-full border border-transparent px-5 py-3.5 text-base font-bold text-indigo-800 underline-offset-4 transition hover:underline">شاهد
+          لوحات التحكم</a>
+      </div>
+
+      <div class="mt-14 grid gap-6 sm:grid-cols-3">
+        <div class="rounded-2xl border border-white/60 bg-white/70 p-6 text-center shadow-card backdrop-blur-md">
+          <div
+            class="font-display bg-gradient-to-l from-indigo-600 to-violet-600 bg-clip-text text-3xl font-black text-transparent">
+          </div>
+          <div class="mt-1 text-sm font-semibold text-slate-700">مدرسة محمية</div>
+        </div>
+        <div class="rounded-2xl border border-white/60 bg-white/70 p-6 text-center shadow-card backdrop-blur-md">
+          <div
+            class="font-display bg-gradient-to-l from-indigo-600 to-violet-600 bg-clip-text text-3xl font-black text-transparent">
+          </div>
+          <div class="mt-1 text-sm font-semibold text-slate-700">تسجيل آمن</div>
+        </div>
+        <div class="rounded-2xl border border-white/60 bg-white/70 p-6 text-center shadow-card backdrop-blur-md">
+          <div
+            class="font-display bg-gradient-to-l from-indigo-600 to-violet-600 bg-clip-text text-3xl font-black text-transparent">
+            99.9%</div>
+          <div class="mt-1 text-sm font-semibold text-slate-700">ضمان صفر تسريبات</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- لماذا -->
+  <section id="لماذا" class="border-b border-slate-200 bg-slate-50 py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <h2 class="font-display text-center text-2xl font-extrabold text-ink sm:text-3xl">صُنع لأصحاب المدارس الذين سئموا
+        السرقة</h2>
+      <p class="mx-auto mt-6 max-w-3xl text-center text-base leading-relaxed text-slate-600">
+        تقضي أسابيع في التصوير والمونتاج والرفع — ثم يُشارك أحدهم الرابط في مجموعة واتساب. في دقائق، مئات الغرباء
+        يشاهدون مجاناً بينما إيراداتك تتبخر. بُني <strong>Aman Ta'lim</strong> تحديداً لإنهاء هذا. كل فيديو محمي برمز
+        وصول مؤقت، كل جلسة مباشرة تتطلب تسجيلاً موثقاً، وكل رابط دورة ينتهي صلاحيته في اللحظة المناسبة.
+      </p>
+      <p class="mx-auto mt-4 max-w-2xl text-center text-lg font-semibold text-indigo-900">
+        أنت ركّز على التدريس. نحن نتولى الأقفال والحراسة والبوابات — لتبقى معرفتك ملكك.
+      </p>
+
+      <div class="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 text-right shadow-sm">
+          <div class="text-2xl">🎬</div>
+          <h3 class="mt-3 font-bold text-ink">بث فيديو محمي بروابط تنتهي تلقائياً</h3>
+          <p class="mt-2 text-sm leading-relaxed text-mist">المشاركة بلا فائدة — الرابط وحده لا يكفي.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 text-right shadow-sm">
+          <div class="text-2xl">🎥</div>
+          <h3 class="mt-3 font-bold text-ink">الجلسات المباشرة حكر على الطلاب المسجلين فقط</h3>
+          <p class="mt-2 text-sm leading-relaxed text-mist">لا دخول مجهول، لا بث مفتوح للعامة.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 text-right shadow-sm">
+          <div class="text-2xl">📊</div>
+          <h3 class="mt-3 font-bold text-ink">مراقبة الوصول لحظةً بلحظة</h3>
+          <p class="mt-2 text-sm leading-relaxed text-mist">اعرف من يشاهد وماذا يفتح.</p>
+        </article>
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 text-right shadow-sm">
+          <div class="text-2xl">🏫</div>
+          <h3 class="mt-3 font-bold text-ink">دعم متعدد المدارس ببيئات معزولة وآمنة</h3>
+          <p class="mt-2 text-sm leading-relaxed text-mist">
+            لكل مدرسة سوبدومين/دومين مخصص وصفحة هبوط تعرض الدورات وتسمح للطلاب بالتسجيل داخل بيئة معزولة. هكذا تبقى
+            تجربة كل عميل مستقلة وآمنة.
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- مزايا مختصرة -->
+  <section id="مزايا" class="border-b border-slate-200 bg-white py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <h2 class="font-display text-2xl font-extrabold text-ink sm:text-3xl">كل ما تحتاجه للتعليم بلا خوف</h2>
+      <p class="mt-3 max-w-2xl text-slate-600">أدوات قوية تحمي محتواك، تؤمّن جلساتك المباشرة، وتمنحك الثقة الكاملة في
+        التدريس.</p>
+
+      <ul class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <li class="flex flex-row-reverse gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-right">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-indigo-100 text-lg">📡</span>
+          <div>
+            <h3 class="font-bold text-ink">بث HD محمي</h3>
+            <p class="mt-1 text-sm text-mist">روابط مشفرة تنتهي تلقائياً — لا تشغيل بعنوان URL ثابت للجميع.</p>
+          </div>
+        </li>
+        <li class="flex flex-row-reverse gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-right">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-violet-100 text-lg">🔐</span>
+          <div>
+            <h3 class="font-bold text-ink">اختبارات مقفلة</h3>
+            <p class="mt-1 text-sm text-mist">للمسجلين المدفوعين فقط — الروابط المجهولة لا تؤدي إلى شيء.</p>
+          </div>
+        </li>
+        <li class="flex flex-row-reverse gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-right">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-fuchsia-100 text-lg">🧠</span>
+          <div>
+            <h3 class="font-bold text-ink">ذكاء الوصول</h3>
+            <p class="mt-1 text-sm text-mist">اعرف من شاهد ومن حاول المشاركة.</p>
+          </div>
+        </li>
+        <li class="flex flex-row-reverse gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-right">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-emerald-100 text-lg">✓</span>
+          <div>
+            <h3 class="font-bold text-ink">وصول طالب موثق</h3>
+            <p class="mt-1 text-sm text-mist">الدخول مشروط بالتسجيل والدفع.</p>
+          </div>
+        </li>
+        <li
+          class="flex flex-row-reverse gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-right sm:col-span-2 lg:col-span-1">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-amber-100 text-lg">📚</span>
+          <div>
+            <h3 class="font-bold text-ink">مسارات دورات منظمة</h3>
+            <p class="mt-1 text-sm text-mist">قوائم تشغيل مقفلة — تسلسل واضح بلا تخطٍ عشوائي.</p>
+          </div>
+        </li>
+        <li
+          class="flex flex-row-reverse gap-4 rounded-2xl border border-slate-100 bg-slate-50/80 p-5 text-right sm:col-span-2 lg:col-span-1">
+          <span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-sky-100 text-lg">👤</span>
+          <div>
+            <h3 class="font-bold text-ink">التحكم في الطلاب</h3>
+            <p class="mt-1 text-sm text-mist">وافق، أوقف الوصول، تتبع من يدخل — فوراً.</p>
+          </div>
+        </li>
+      </ul>
+
+      <div class="mt-12 rounded-2xl border border-indigo-100 bg-indigo-50/50 p-8 text-right">
+        <h3 class="text-xl font-bold text-ink">الأمان مدمج في كل طبقة</h3>
+        <p class="mt-3 text-slate-600">من تسليم الفيديو المشفر إلى التحقق من الجلسات — كل مكون مصمم لمنع السرقة والوصول
+          غير المصرح به.</p>
+      </div>
+
+      <div class="mt-10 rounded-2xl border border-emerald-200 bg-emerald-50/80 p-6 text-right">
+        <h3 class="text-lg font-bold text-emerald-900">حماية شفافة، بدون تكاليف خفية</h3>
+        <p class="mt-2 text-emerald-900/90">كل خطة تشمل حماية كاملة للمحتوى. كلما نمت، كلما قوي أمانك. <strong>تجربة
+            مجانية 14 يوماً</strong> — ابدأ واختبر بنفسك.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- لوحة مدير المدرسة — تشغيل يومي -->
+  <section id="لوحة-المدير"
+    class="relative border-b border-slate-200 bg-gradient-to-b from-slate-50 to-white py-16 sm:py-20">
+    <div
+      class="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-l from-transparent via-indigo-200 to-transparent">
+    </div>
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="text-right">
+        <p class="text-sm font-bold text-brand">لوحة التحكم — مدير المدرسة</p>
+        <h2 class="font-display mt-2 text-2xl font-extrabold text-navy sm:text-3xl">سيطرة تشغيلية على ما يحدث داخل
+          مدرستك</h2>
+        <p class="mt-4 max-w-3xl text-base leading-relaxed text-slate-600">
+          لست مجرد «حساب إداري»: تتابع نشاط المعلمين، تدير الاختبارات والتسجيلات من لوحة واحدة مصممة للقرار السريع
+          والامتثال لسياسة مدرستك.
+        </p>
+      </div>
+      <div class="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        <article
+          class="group rounded-2xl border border-slate-200/90 bg-white p-7 text-right shadow-card transition hover:border-indigo-200 hover:shadow-soft">
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-indigo-600 to-indigo-800 text-lg text-white shadow-md">
+            ▶</div>
+          <h3 class="font-display mt-5 text-lg font-bold text-navy">متابعة جلسات المعلمين المباشرة</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            اطلع على من أطلق الجلسات الحية، ومتى، وربط النشاط بمساقاتك — دون أن تُفقد الرؤية لما يحدث في الفصول
+            الافتراضية.
+          </p>
+        </article>
+        <article
+          class="group rounded-2xl border border-slate-200/90 bg-white p-7 text-right shadow-card transition hover:border-indigo-200 hover:shadow-soft">
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-violet-600 to-purple-800 text-lg text-white shadow-md">
+            ✎</div>
+          <h3 class="font-display mt-5 text-lg font-bold text-navy">إدارة الاختبارات عبر الإنترنت</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            أنشئ وتعدّل الاختبارات، راقب المحاولات، و<strong>اعتمد التصحيح اليدوي</strong> عند الحاجة — كل من مساحة
+            واحدة مرتبطة بالمناهج والفئات.
+          </p>
+        </article>
+        <article
+          class="group rounded-2xl border border-slate-200/90 bg-white p-7 text-right shadow-card transition hover:border-indigo-200 hover:shadow-soft md:col-span-2 lg:col-span-1">
+          <div
+            class="flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-emerald-600 to-teal-800 text-lg text-white shadow-md">
+            👥</div>
+          <h3 class="font-display mt-5 text-lg font-bold text-navy">إدارة تسجيلات الطلاب</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            <strong>قبول، رفض، وتجديد</strong> الاشتراكات؛ حافظ على أن يدخل الدورة فقط من دفع وتمت الموافقة عليه — بما
+            يتماشى مع نموذج عملك.
+          </p>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- Galerie -->
+  <section id="galerie" class="border-b border-slate-200 bg-slate-900 py-16 text-slate-100 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="text-center">
+        <h2 class="font-display text-2xl font-extrabold  sm:text-3xl">Galerie de photos</h2>
+        <p class="mt-3 text-slate-600">Un aperçu détaillé de l'application</p>
+      </div>
+
+      <div class="mt-12 grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <a href="landingpage.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="landingpage.png" alt="Page d'accueil" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Page d'accueil</p>
+          </div>
+        </a>
+        <a href="student_dashboard.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="student_dashboard.png" alt="Espace apprenant 1" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace apprenant - Tableau de bord</p>
+          </div>
+        </a>
+        <a href="student_dashboard2.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="student_dashboard2.png" alt="Espace apprenant 2" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace apprenant - Leçon</p>
+          </div>
+        </a>
+        <a href="teacher1.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="teacher1.png" alt="Espace formateur 1" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace formateur - Statistiques</p>
+          </div>
+        </a>
+        <a href="teacher2.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="teacher2.png" alt="Espace formateur 2" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace formateur - Gestion des cours</p>
+          </div>
+        </a>
+        <a href="dashboard_3.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="dashboard_3.png" alt="Aperçu espace formateur" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Aperçu Espace formateur</p>
+          </div>
+        </a>
+        <a href="daashboard_1.png" target="_blank"
+          class="block overflow-hidden rounded-2xl border border-slate-200 shadow-sm transition hover:shadow-md hover:-translate-y-1">
+          <div class="aspect-video bg-slate-100">
+            <img src="daashboard_1.png" alt="Espace direction" class="h-full w-full object-cover object-top"
+              onerror="this.style.display='none'" />
+          </div>
+          <div class="p-4 bg-white text-left">
+            <p class="text-sm font-bold text-ink">Espace direction (Tenant)</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- المزوّد -->
+  <section id="مزود"
+    class="border-b border-slate-800 bg-gradient-to-b from-navy via-[#0f1d32] to-navy py-16 text-white sm:py-20">
+    <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
+      <p class="text-xs font-bold uppercase tracking-[0.2em] text-gold/90">المزوّد</p>
+      <h2 class="font-display mt-3 text-2xl font-extrabold leading-snug text-white sm:text-3xl">حل تقني مبني بمعايير
+        احترافية</h2>
+      <p class="mx-auto mt-5 max-w-2xl text-sm leading-relaxed text-slate-400 sm:text-base">
+        التصميم، الأمان، وتجربة المستخدم تُنفَّذ وفق ممارسات حديثة للمنصات التعليمية. للتعرّف على الخلفية المهنية
+        والخبرات، يمكنك زيارة الملف الشخصي على <span class="text-slate-200">LinkedIn</span>.
+      </p>
+      <!-- استبدل الرابط أدناه بروفكيلك: https://www.linkedin.com/in/username -->
+      <a href="https://www.linkedin.com/in/mohammed-cherif-mohamed-361342290/" target="_blank" rel="noopener noreferrer"
+        class="font-display mt-8 inline-flex items-center gap-3 rounded-full bg-[#0A66C2] px-8 py-3.5 text-base font-bold text-white shadow-lg shadow-blue-900/40 transition hover:bg-[#004182] hover:shadow-xl">
+        <svg class="h-6 w-6 shrink-0" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+        </svg>
+        من المزوّد؟ — الملف على LinkedIn
+      </a>
+    </div>
+  </section>
+
+  <!-- رأيك والتسعير الشهري -->
+  <section id="رأيك" class="border-b border-slate-200 bg-gradient-to-b from-indigo-50 to-white py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <h2 class="font-display text-center text-2xl font-extrabold text-ink sm:text-3xl">نريد رأيك — وما تستعد لدفعه
+        شهرياً</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-center text-slate-600">
+        ساعدنا نصل للتسعير العادل: قيّم الفكرة، واذكر <strong>المبلغ الشهري</strong> الذي تراه مناسباً لمدرستك مقابل
+        حماية المحتوى والجلسات والطلاب كما وصفنا.
+      </p>
+      <div class="mt-10 grid gap-8 lg:grid-cols-2">
+        <div class="rounded-2xl border border-slate-200 bg-white p-6 text-right shadow-sm">
+          <h3 class="font-bold text-ink">لماذا نسأل عن المبلغ الشهري؟</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            التسعير الذكي يعتمد على قيمة حقيقية لك — لا أرقاماً عشوائية. رأيك يوجّهنا: هل نبدأ بباقة خفيفة للمدارس
+            الصغيرة، أم باقة مؤسسات مع دعم أوسع؟
+          </p>
+          <ul class="mt-4 space-y-2 text-sm text-slate-700">
+            <li>• اختر نطاقاً تقريباً — يمكنك التعديل لاحقاً.</li>
+            <li>• يمكنك إضافة ملاحظات عن العملة والدولة في الرسالة.</li>
+          </ul>
+        </div>
+        <div class="rounded-2xl border border-indigo-200 bg-white p-6 text-right shadow-sm">
+          <h3 class="font-bold text-indigo-900">مثال لأسئلة تفكّر بها قبل الإرسال</h3>
+          <p class="mt-3 text-sm leading-relaxed text-slate-600">
+            هل تدفع شهرياً أم سنوياً؟ هل تفضّل فاتورة بنكية أم بطاقة؟ كم عدد الطلاب المتوقع؟ — اكتب ذلك في النموذج
+            التالي وسنتواصل مع خيارات دفع مناسبة لسوقك.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- تواصل -->
+  <section id="تواصل" class="py-16 sm:py-20">
+    <div class="mx-auto max-w-6xl px-4 sm:px-6">
+      <div class="grid gap-12 lg:grid-cols-2">
+        <div class="text-right">
+          <h2 class="font-display text-2xl font-extrabold text-ink sm:text-3xl">تواصل معنا — رأيك وميزانيتك الشهرية</h2>
+          <p class="mt-4 leading-relaxed text-slate-600">
+            عيّن عنوان النموذج أدناه (<strong>FORM_ENDPOINT</strong>) لخدمة مثل Formspree أو أي API خاص بك. الحقول تشمل
+            تقييماً سريعاً ومبلغاً شهرياً مقترحاً.
+          </p>
+          <div class="mt-6 rounded-2xl border border-emerald-200/80 bg-emerald-50/90 p-5 text-right shadow-sm">
+            <p class="text-sm font-bold text-emerald-900">تجربة مجانية 14 يوماً</p>
+            <p class="mt-2 text-sm leading-relaxed text-emerald-900/90">
+              من يملأ هذا النموذج ويترك بيانات صحيحة يُعتبر مهتماً بالعرض؛ بعد مراجعة طلبك نتواصل معك لتفعيل
+              <strong>تجربة مجانية لمدة 14 يوماً</strong> وفق الشروط المتفق عليها (خاضع للتوفر والتأهيل).
+            </p>
+          </div>
+        </div>
+        <form action="https://formspree.io/f/mzdkajpk" method="POST" id="contact-form"
+          class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm" dir="rtl" novalidate>
+          <input type="hidden" name="_subject" value="Aman Ta'lim — رأي وتسعير + تجربة 14 يوماً" />
+          <p
+            class="mb-5 rounded-xl border border-emerald-100 bg-emerald-50/70 px-4 py-3 text-right text-sm text-emerald-950">
+            <span class="font-bold">عرض التجربة:</span> إرسال هذا النموذج يعني اهتمامك بالمنصة؛ نتواصل معك لترتيب
+            <strong>14 يوماً مجاناً</strong> للتجربة بعد التحقق من الطلب.
+          </p>
+          <div class="grid gap-4">
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">الاسم الكامل</span>
+              <input name="name" type="text" required
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-right text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+                placeholder="الاسم" />
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">البريد المهني</span>
+              <input name="email" type="email" required dir="ltr"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-left text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+                placeholder="you@school.com" />
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">اسم المدرسة أو الجهة</span>
+              <input name="company" type="text"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-right text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand" />
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">ما رأيك في الفكرة؟ (من 1 إلى 5)</span>
+              <select name="rating"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-right text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand">
+                <option value="">اختر</option>
+                <option value="5">5 — ممتازة، أحتاجها</option>
+                <option value="4">4 — جيدة جداً</option>
+                <option value="3">3 — متوسطة</option>
+                <option value="2">2 — ضعيفة</option>
+                <option value="1">1 — لا تناسبني</option>
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">كم تستعد أن تدفع شهرياً (تقريباً)؟</span>
+              <select name="monthly_budget"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-right text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand">
+                <option value="">اختر نطاقاً</option>
+                <option value="under_50">أقل من 2000 ( DA)</option>
+                <option value="50_100">3000 — 2500</option>
+                <option value="100_300">4000 — 5000</option>
+                <option value="above_1000">أكثر من 6000</option>
+                <option value="custom">سأذكر المبلغ في الرسالة</option>
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">طريقة الدفع المفضلة</span>
+              <select name="payment_preference"
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-right text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand">
+                <option value="">اختر</option>
+                <option value="invoice">تحويل بنكي / فاتورة</option>
+                <option value="subscription">اشتراك شهري</option>
+                <option value="other">أخرى — أشرح في الرسالة</option>
+              </select>
+            </label>
+            <label class="block">
+              <span class="text-xs font-bold text-slate-500">رسالتك — رأيك، عدد الطلاب </span>
+              <textarea name="message" rows="5" required
+                class="mt-1 w-full rounded-lg border border-slate-300 px-3 py-2 text-right text-slate-900 focus:border-brand focus:outline-none focus:ring-1 focus:ring-brand"
+                placeholder="اكتب بحرية: ما الذي يهمك في الحماية؟ وما الميزانية الشهرية المنطقية لك؟"></textarea>
+            </label>
+          </div>
+          <p id="form-status" class="mt-4 hidden text-sm"></p>
+          <button type="submit"
+            class="mt-4 w-full rounded-full bg-ink py-3 font-bold text-white hover:bg-slate-800">إرسال</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-200 bg-slate-100 py-8 text-center text-sm text-slate-500">
+    <p>© <span id="y"></span> Aman Ta'lim — صفحة هبوط ثابتة</p>
+  </footer>
+  <!-- 
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+
+    /* ضع رابط النموذج هنا — Formspree أو خادمك */
+    var FORM_ENDPOINT = 'https://formspree.io/f/mzdkajpk';
+
+    document.getElementById('contact-form').addEventListener('submit', async function (e) {
+      e.preventDefault();
+      var status = document.getElementById('form-status');
+      status.classList.remove('hidden', 'text-red-600', 'text-green-700', 'text-slate-600');
+      var fd = new FormData(e.target);
+
+      if (FORM_ENDPOINT === 'YOUR_FORM_ENDPOINT') {
+        status.textContent = 'عيّن FORM_ENDPOINT في أسفل الملف (استبدل YOUR_FORM_ENDPOINT برابط Formspree أو API).';
+        status.classList.add('text-red-600');
+        return;
+      }
+
+      status.textContent = 'جاري الإرسال…';
+      status.classList.add('text-slate-600');
+      try {
+        var res = await fetch(FORM_ENDPOINT, {
+          method: 'POST',
+          body: fd,
+          headers: { Accept: 'application/json' },
+        });
+        if (res.ok) {
+          status.textContent = 'شكراً — سنتواصل معك لترتيب التجربة المجانية (14 يوماً) وخيارات الدفع والتسعير.';
+          status.classList.remove('text-slate-600');
+          status.classList.add('text-green-700');
+          e.target.reset();
+        } else {
+          var err = await res.json().catch(function () { return {}; });
+          status.textContent = (err.error || 'حدث خطأ. حاول مرة أخرى.') + '';
+          status.classList.add('text-red-600');
+        }
+      } catch (err) {
+        status.textContent = 'تعذر الإرسال. تحقق من الرابط أو الشبكة.';
+        status.classList.add('text-red-600');
+      }
+    });
+  </script> -->
+</body>
+
+</html>
